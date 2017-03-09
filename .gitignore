@@ -3,3 +3,8 @@
 build
 manual
 private
+/buck-out/
+/.buckd/
+/buckaroo/
+.buckconfig.local
+BUCKAROO_DEPS

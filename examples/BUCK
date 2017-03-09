@@ -1,0 +1,25 @@
+cxx_binary(
+  name = 'calculator',
+  srcs = [
+    'calculator.cc',
+  ],
+  compiler_flags = [
+    '-std=c++14',
+  ],
+  deps = [
+    '//:pegtl',
+  ],
+)
+
+cxx_binary(
+  name = 'hello-world',
+  srcs = [
+    'hello_world.cc',
+  ],
+  compiler_flags = [
+    '-std=c++14',
+  ],
+  deps = [
+    '//:pegtl',
+  ],
+)
